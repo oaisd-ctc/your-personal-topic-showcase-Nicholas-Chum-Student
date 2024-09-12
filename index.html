@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Computer Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#computer1">High-End Computers</a> |
+            <a href="#computer2">Mediocre Computers</a> |
+            <a href="#computer3">Cheap Computers</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="computer">
+            Gato Computers
+            <br>
+            <img class="computer" id="gato"
+                src="data:image/jpeg;base64,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"
+                alt="Black Cat">
+        </h1>
+
+        <section class="computer" id="computer1">
+            <h2>High-End Computers</h2>
+            <div>
+                <img src="https://cdn.dorik.com/65ba55efa29ce3002a95b65d/65ba57f9a29ce3002a95bf70/images/Screenshot-2024-01-31-214522_al59l4n2.png"
+                    alt="A gold and black themed computer">
+                <p>These high-end computers are at the budget of $1,250 and higher. This is
+                    due to the fact that they use, new and top of the line parts that can only be accessed by paying
+                    large sums. They're different due to the fact that they use water cooling to cool the powerful
+                    parts. Regardless though, they still have amazing airflow and will have tempered glass alongside the
+                    tempered glass door. </p>
+                <br>
+                <a href="./pages/computer1.html">Learn more!</a>
+            </div>
+        </section>
+        <section class="computer" id="computer2">
+            <h2>Mediocre Computers</h2>
+            <div>
+                <img src="https://cdn.dorik.com/65ba55efa29ce3002a95b65d/65ba57f9a29ce3002a95bf70/images/Screenshot-2024-02-01-170251_57grlw0q.png"
+                    alt="A white, black, and purple themed computer">
+                <p>These Mid-Range are in the budget of $750-1,250. This PC generally features
+                    mostly new parts with sometimes the parts being still in very good quality. This PC won't have a CPU
+                    Fan
+                    but rather an AIO that won't need to be replaced and will be tempered glass reinforced.</p>
+                <br>
+                <a href="./pages/computer2.html">Learn more!</a>
+            </div>
+        </section>
+        <section class="computer" id="computer3">
+            <h2>Cheap Computers</h2>
+            <div>
+                <img src="https://cdn.dorik.com/65ba57f9a29ce3002a95bf70/images/oefajoifjaeo-984Zb.png"
+                    alt="A blue and black themed computer">
+                <p>These budget computers are in the budget of anything less than $750. These PC
+                    are still capable of running 1080p at the minimal 60 FPS. The PC will be using a CPU fan and will be
+                    using a mesh casing all around without tempered glass except for the possibility of the door.</p>
+                <br>
+                <a href="./pages/computer3.html">Learn more!</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="computer1">
+            <p>cet ceo 🐈 &copy; 2024 | Contact: sillycetceo@gmail.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>

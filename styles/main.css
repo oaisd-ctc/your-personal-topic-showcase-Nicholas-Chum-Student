@@ -1,0 +1,71 @@
+* {
+    font-family: Nerko One;
+}
+
+body {
+    background-color: rgba(255, 123, 0, 0.363);
+    text-align: center;
+}
+
+img#gato {
+    max-height: 170px;
+    max-width: 200px;
+}
+
+img {
+    max-height: 300px;
+}
+
+nav {
+    display: block;
+    background-color: rgba(2, 83, 175, 0.144);
+    border-style: dashed;
+    border-radius: 7px;
+    padding-left: 700px;
+    padding-right: 700px;
+}
+
+.computer {
+    display: inline-block;
+    background-color: rgba(2, 83, 175, 0.144);
+    border-style: solid;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.computer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.computer div>* {
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.computer p {
+    display: block;
+    border-style: solid;
+    padding: 20px;
+    margin: 40px
+}
+
+.computer a {
+    display: block;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px
+}
+
+footer {
+    display: inline-block;
+    background-color: rgba(2, 83, 175, 0.144);
+    border-style: dashed;
+    border-radius: 7px;
+    padding-left: 700px;
+    padding-right: 700px;
+}
